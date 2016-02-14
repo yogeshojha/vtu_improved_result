@@ -17,8 +17,6 @@ $ sudo pip install requests
 
 $ sudo pip install openpyxl
 
-$ sudo pip install argparse
-
 
 
 ### Usage
