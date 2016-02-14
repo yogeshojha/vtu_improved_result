@@ -6,7 +6,6 @@ from lxml import html
 import openpyxl
 import pprint
 from collections import OrderedDict
-import argparse
 import sys
 
 BASE_URL = 'http://results.vtu.ac.in'
