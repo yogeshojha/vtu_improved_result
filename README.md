@@ -1,8 +1,25 @@
-### vtu-result
+###vtu-result
 
 A  Python script to export results of all students from [results.vtu.ac.in](http://results.vtu.ac.in) to Excel file format.
 
 ####This is the improved version of https://github.com/yogeshojha/vtu_result
+
+####Installation
+$ git clone https://github.com/yogeshojha/vtu_improved_result.git
+
+$ cd vtu_improved_result
+
+####Requirements
+
+$ sudo pip install lxml
+
+$ sudo pip install requests
+
+$ sudo pip install openpyxl
+
+$ sudo pip install argparse
+
+
 
 ### Usage
 $ python app.py
