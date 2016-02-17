@@ -207,7 +207,7 @@ def main():
     print "Exports the results of vtu students into Excel format \n"
     print "Please note the format of USN is College_codeYearBranchUsn\nExample: 1EP14CS001\nwhere 1EP is the college code\n14 is the batch year\nCS is the branch\n001 is the usn"
     usn = raw_input("Enter the starting USN\nExample: 1EP14CS001\n")
-    to = int(raw_input("Enter final USN\nJust enter the last 3 digits of final usn.\nExample: 100.\nThis will be treated as 1EP14CS100\n"))
+    to = int(raw_input("Enter final USN\nEnter the last 3 digits of final usn number.\nExample: 100.\nThis will be treated as 1EP14CS100\n"))
     usn_part = usn[0:7]
     frm = int(usn[8:10])
     filename = usn[1:3]+'_'+usn[5:7]+'_'+'results'
