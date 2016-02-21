@@ -10,18 +10,19 @@ $ git clone https://github.com/yogeshojha/vtu_improved_result.git
 $ cd vtu_improved_result
 
 ####Requirements
-
+```bash
 $ sudo pip install lxml
 
 $ sudo pip install requests
 
 $ sudo pip install openpyxl
-
+```
 
 
 ### Usage
+```bash
 $ python app.py
-
+```
 and follow the instructions
 
 ### Screenshots
